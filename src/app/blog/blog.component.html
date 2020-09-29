@@ -1,0 +1,8 @@
+<p>blog works!</p>
+
+
+
+
+<app-itmes  *ngFor="let item of listItems | async"
+                       [titre]="item.slug" [index]="i" 
+                       [id]="item.id"></app-itmes> 
